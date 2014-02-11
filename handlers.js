@@ -17,4 +17,4 @@ var helloworld = function(req, res) {
 
 
 exports.watch = watchf;
-exports.hello - helloworld;
+exports.hello = helloworld;
