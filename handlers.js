@@ -10,11 +10,9 @@ var watchf = function(req, res) {
 	})
 }
 
-var helloworld = function(req, res) {
-    var hello = "hello";
-    res.send(hello);
+exports.hello = function(req, res) {
+    res.send("Hello World");
 }
 
 
 exports.watch = watchf;
-exports.hello = helloworld;
